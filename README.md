@@ -1,12 +1,13 @@
 # MeizuPath4KernelSoongBpf
 #go to repo path
 
-cd ~/crDroid  
+cd ~/RR  
 
 #clone this branch
 
-git clone -b crDroid git@github.com:thedauke/MeizuPath4KernelSoongBpf.git
+git clone -b RR git@github.com:thedauke/MeizuPath4KernelSoongBpf.git
 
 #apply patch
 
+chmod +x ./mpatch.sh
 ./mpatch.sh
