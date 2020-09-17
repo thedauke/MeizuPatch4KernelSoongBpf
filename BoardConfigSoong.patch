@@ -1,5 +1,5 @@
---- BoardConfigSoong.mk	2020-07-16 14:16:55.581725000 +0000
-+++ BoardConfigSoong.mk	2020-07-16 16:56:08.765764510 +0000
+--- BoardConfigSoong.mk	2020-09-17 06:39:35.236840000 +0600
++++ BoardConfigSoong.mk	2020-09-17 17:07:51.698606000 +0600
 @@ -9,7 +9,7 @@
      KERNEL_MAKE_FLAGS \
      PATH_OVERRIDE_SOONG \
