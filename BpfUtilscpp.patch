@@ -1,5 +1,5 @@
---- BpfUtilsorig.cpp	2020-09-29 14:52:37.546873000 +0600
-+++ BpfUtilsafter.cpp	2020-09-29 15:11:11.532345000 +0600
+--- BpfUtils.cpp	2020-09-29 14:52:37.546873000 +0600
++++ BpfUtils.cpp	2020-09-29 15:11:11.532345000 +0600
 @@ -265,6 +265,11 @@
      int kernel_version_major;
      int kernel_version_minor;
