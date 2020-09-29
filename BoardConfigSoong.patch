@@ -1,11 +1,11 @@
---- BoardConfigSoong.mk	2020-07-16 14:16:55.581725000 +0000
-+++ BoardConfigSoong.mk	2020-07-16 16:56:08.765764510 +0000
-@@ -9,7 +9,7 @@
-     KERNEL_MAKE_FLAGS \
+--- BoardConfigSoongorig.mk	2020-09-29 14:54:27.528609000 +0600
++++ BoardConfigSoongafter.mk	2020-09-29 15:14:18.327263000 +0600
+@@ -10,7 +10,7 @@
      PATH_OVERRIDE_SOONG \
      TARGET_KERNEL_CONFIG \
--    TARGET_KERNEL_SOURCE
+     TARGET_KERNEL_SOURCE \
+-    TARGET_KERNEL_HEADERS
 +    TARGET_KERNEL_HEADER_SOURCE
  
- # Setup SOONG_CONFIG_* vars to export the vars listed above.
- # Documentation here:
+ SOONG_CONFIG_NAMESPACES += customVarsPlugin
+ 

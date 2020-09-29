@@ -21,27 +21,27 @@ rm BpfUtilscpp.patch
 #2
 echo "patch build/soong/Android.bp 2 of 4"
 cd "$ROOTDIR"
-cp Androidbp.patch vendor/lineage/build/soong/
-cd vendor/lineage/build/soong/
+cp Androidbp.patch vendor/aosp/build/soong/
+cd vendor/aosp/build/soong/
 patch Android.bp < Androidbp.patch
 rm Androidbp.patch
-#patch source: 'Androidbp.patch', target: "vendor/lineage/build/soong/Android.bp"
+#patch source: 'Androidbp.patch', target: "vendor/aosp/build/soong/Android.bp"
 #3
 cd "$ROOTDIR"
 echo "patch BoardConfigKernel.mk 3 of 4"
-cp BoardConfigKernel.patch vendor/lineage/config/
-cd vendor/lineage/config/
+cp BoardConfigKernel.patch vendor/aosp/config/
+cd vendor/aosp/config/
 patch BoardConfigKernel.mk < BoardConfigKernel.patch
 rm BoardConfigKernel.patch
-#patch source: 'BoardConfigKernel.patch', target: "vendor/lineage/config/BoardConfigKernel.mk"
+#patch source: 'BoardConfigKernel.patch', target: "vendor/aosp/config/BoardConfigKernel.mk"
 #4
 cd "$ROOTDIR"
 echo "patch BoardConfigSoong.mk 4 of 4"
-cp BoardConfigSoong.patch vendor/lineage/config/
-cd vendor/lineage/config/
+cp BoardConfigSoong.patch vendor/aosp/config/
+cd vendor/aosp/config/
 patch BoardConfigSoong.mk < BoardConfigSoong.patch
 rm BoardConfigSoong.patch
-#patch source: 'BoardConfigSoong.patch', target: "vendor/lineage/config/BoardConfigSoong.mk"
+#patch source: 'BoardConfigSoong.patch', target: "vendor/aosp/config/BoardConfigSoong.mk"
 #5
 cd "$ROOTDIR"
 echo "done, you are welcome motherfucker"
