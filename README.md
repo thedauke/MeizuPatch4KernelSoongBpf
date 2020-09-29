@@ -5,7 +5,7 @@ cd ~/crDroid
 
 #clone this branch
 
-git clone -b crDroid git@github.com:thedauke/MeizuPath4KernelSoongBpf.git
+git clone git@github.com:thedauke/MeizuPath4KernelSoongBpf.git -b PE
 
 #apply patch
 
