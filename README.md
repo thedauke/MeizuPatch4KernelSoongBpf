@@ -5,7 +5,7 @@ cd ~/RR
 
 #clone this branch
 
-git clone -b RR git@github.com:thedauke/MeizuPath4KernelSoongBpf.git
+git clone git@github.com:thedauke/MeizuPath4KernelSoongBpf.git -b RR
 
 #apply patch
 
