@@ -1,6 +1,6 @@
---- BoardConfigKernel.mk	2020-09-29 14:54:27.528609000 +0600
-+++ BoardConfigKernel.mk	2020-09-29 15:13:55.422906000 +0600
-@@ -45,6 +45,10 @@
+--- "BoardConfigKernelorig\\.mk"	2021-02-09 20:53:53.574125000 +0600
++++ BoardConfigKernelpached.mk	2021-02-10 14:57:51.510268000 +0600
+@@ -46,6 +46,10 @@
  TARGET_KERNEL_SOURCE :=
  endif
  

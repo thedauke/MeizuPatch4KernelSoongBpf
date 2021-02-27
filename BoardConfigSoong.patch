@@ -1,5 +1,5 @@
---- BoardConfigSoong.mk	2020-09-29 14:54:27.528609000 +0600
-+++ BoardConfigSoong.mk	2020-09-29 15:14:18.327263000 +0600
+--- BoardConfigSoongorig.mk	2021-02-09 20:53:53.574125000 +0600
++++ BoardConfigSoongpached.mk	2021-02-10 14:58:14.041557000 +0600
 @@ -10,7 +10,7 @@
      PATH_OVERRIDE_SOONG \
      TARGET_KERNEL_CONFIG \

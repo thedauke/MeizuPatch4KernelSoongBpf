@@ -10,13 +10,13 @@ echo "Welcome to our team - Gayzu dev"
 #--------------------------------------------------------------------------------------------
 
 ROOTDIR="$PWD"
-cd "$PWD"
+#cd "$PWD"
 #1
-echo "patch BpfUtils.cpp 1 of 4"
-cp BpfUtilscpp.patch system/bpf/libbpf_android/
-cd system/bpf/libbpf_android/
-patch BpfUtils.cpp < BpfUtilscpp.patch
-rm BpfUtilscpp.patch
+#echo "patch BpfUtils.cpp 1 of 4"
+#cp BpfUtilscpp.patch system/bpf/libbpf_android/
+#cd system/bpf/libbpf_android/
+#patch BpfUtils.cpp < BpfUtilscpp.patch
+#rm BpfUtilscpp.patch
 # patch source: 'BpfUtilscpp.patch', target: "system/bpf/libbpf_android/BpfUtils.cpp"
 #2
 echo "patch build/soong/Android.bp 2 of 4"

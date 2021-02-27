@@ -1,6 +1,6 @@
---- Android.bp	2020-09-29 14:54:27.524609000 +0600
-+++ Android.bp	2020-09-29 15:12:53.889944000 +0600
-@@ -27,7 +27,7 @@
+--- Androidorig.bp	2021-02-09 20:53:53.558074000 +0600
++++ Androidpached.bp	2021-02-10 14:55:59.869002000 +0600
+@@ -21,7 +21,7 @@
      name: "generated_kernel_includes",
  
      // The headers make command
@@ -9,12 +9,12 @@
  
      // Directories that can be imported by a cc_* module generated_headers property
      export_include_dirs: [
-@@ -39,7 +39,7 @@
+@@ -32,7 +32,7 @@
      ],
  
      // Sources for dependency tracking
 -    dep_root: "$(TARGET_KERNEL_HEADERS)",
 +    dep_root: "$(TARGET_KERNEL_HEADER_SOURCE)",
-     dep_files: [ "Makefile", "include/**/*", "arch/$(KERNEL_ARCH)/include/**/*", "techpack/audio/include/**/*"],
- }
- 
+     dep_files: [
+         "Makefile",
+         "include/**/*",
